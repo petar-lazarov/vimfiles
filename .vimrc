@@ -22,7 +22,7 @@ let g:airline_right_sep = '◀'
 let g:airline_symbols = {}
 let g:airline_symbols.branch = '⎇'
 
-autocmd Filetype php setlocal ts=4 sw=4 softtabstop=2 expandtab 
+autocmd Filetype php setlocal ts=4 sw=4 softtabstop=2 expandtab
 autocmd Filetype html setlocal ts=2 sw=2 softtabstop=2 expandtab
 
 map <C-J> :bnext<CR>
@@ -30,8 +30,8 @@ map <C-K> :bprev<CR>
 map <C-L> :tabn<CR>
 map <C-H> :tabp<CR>
 
-highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+$/
+" highlight ExtraWhitespace ctermbg=red guibg=red
+match ErrorMsg /\s\+$/
 
-highlight SingleQuotesPreferred ctermbg=yellow guibg=yellow
-match SingleQuotesPreferred /"[^\#{]+"/
+" highlight SingleQuotesPreferred ctermbg=yellow guibg=yellow
+" match ErrorMsg /"[^\#{]+"/
