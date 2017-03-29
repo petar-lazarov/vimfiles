@@ -33,5 +33,8 @@ map <C-H> :tabp<CR>
 " highlight ExtraWhitespace ctermbg=red guibg=red
 match ErrorMsg /\s\+$/
 
+let &colorcolumn="81,".join(range(121, 999), ",")
+hi ColorColumn ctermbg=black guibg=black
+
 " highlight SingleQuotesPreferred ctermbg=yellow guibg=yellow
 " match ErrorMsg /"[^\#{]+"/
