@@ -1,3 +1,5 @@
+let mapleader = ","
+
 set dir=~/.vim/backups
 
 set shell=/bin/bash
@@ -35,3 +37,12 @@ set nocompatible
 set laststatus=2
 
 set foldmethod=indent
+
+set wildignore+=*/tmp/*,*/\.git/*,*/temp/*
+
+" Hides the buffer instead of closing them allowing to open a new buffer
+" without saving
+set hidden
+
+" Highlights search matches in realtime
+set incsearch
