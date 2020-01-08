@@ -7,3 +7,4 @@ to clone all plugins and submodules.
 Then create symlink:
 
 ln -s ~/.vim/.vimrc ~/
+
